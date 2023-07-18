@@ -26,6 +26,10 @@ If you're using a Jupyter notebook, you can prefix each command with an exclamat
 !pip install flask transformers datasets
 ```
 
+## Pre-Run Notes
+
+The Maximus Ai script has been built in such a manner that you will likely need to edit it. Such as the initial run will download the dataset and train the model, however each iterative run of the script will retrain the model. Edit the scriot to train, save, and export your new model trained on the dataset when it is ready for use. (This script was created on the fly to help someone who needed something similar I randomly happened across while scrolling social media, thus it is not top notch but rather a template to help him out. Here's to you Ethan. Cheers and I hope this helps) 
+
 ## Dataset
 
 The AI model uses the Project CodeNet dataset from IBM. The dataset is automatically downloaded and uncompressed when the Flask application starts.
